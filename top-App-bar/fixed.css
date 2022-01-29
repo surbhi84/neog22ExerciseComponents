@@ -1,0 +1,29 @@
+.head {
+  position: sticky;
+  top: 0;
+
+  /* position: fixed;
+    top: 0; */
+}
+
+/* .text {
+  margin-top: 3rem;
+} */
+
+/* fixed can be done using both sticky as well aas fixed property although doing it using fixed is a little tricky
+as you have to give margin to content so that the header and content dont overlap, this is because fixed takes the element out of the normal flow. */
+
+.prominent {
+  height: 6rem;
+  background-color: tomato;
+}
+
+.prominent > .header > .heading {
+  position: relative;
+  top: 2rem;
+}
+
+.prominent > .header > i {
+  position: relative;
+  bottom: 1.5rem;
+}

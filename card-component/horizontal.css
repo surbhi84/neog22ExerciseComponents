@@ -1,0 +1,20 @@
+.card-img-horizontal {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 8px;
+}
+
+.head-horizontal {
+  display: flex;
+}
+
+.head-horizontal:hover {
+  background-color: rgba(114, 173, 173, 0.151);
+  opacity: 0.95;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.about-horizontal {
+  display: none;
+}

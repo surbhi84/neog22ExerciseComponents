@@ -1,0 +1,85 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+[data-card-content] {
+  display: none;
+}
+
+.active[data-card-content] {
+  display: block;
+}
+
+.card {
+  width: 22rem;
+  height: max-content;
+  background-color: thistle;
+  margin: 2rem;
+  padding-bottom: 0.2rem;
+}
+
+.card-head {
+  padding: 1rem;
+  margin: unset;
+  color: rgb(218, 9, 218);
+  background-color: rgba(112, 180, 235, 0.911);
+}
+
+.card-tabs {
+  list-style: none;
+  margin: unset;
+  padding: unset;
+  display: flex;
+}
+
+.card-tab {
+  padding: 1rem;
+  cursor: default;
+}
+.card-tab:hover {
+  background-color: rgba(112, 184, 243, 0.37);
+  border-radius: 8px;
+  color: rgb(216, 157, 216);
+}
+
+.card-tab.active{
+   border-bottom: 3px solid  rgb(218, 9, 218) ;
+}
+
+.shop-item {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  /* background-color: rgb(120, 152, 179); */
+  background-color: rgba(112, 180, 235, 0.911);
+  /* justify-content: center; */
+}
+.img {
+  width: 5rem;
+  height: 7rem;
+  /* padding: 0.2rem; */
+  border-radius: 2px;
+}
+
+b {
+  padding: 0.5rem;
+}
+
+.icon,
+.wish {
+  align-self: flex-end;
+  padding: 0.5rem;
+}
+
+.buy {
+  align-self: flex-end;
+  background-color: rgb(216, 157, 216);
+  border-radius: 8px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* .icon-set {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0.5rem; */
+} */

@@ -1,0 +1,89 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+/* 
+.option-btn {
+  width: 2em;
+  height: 2em;
+  background: url(./ellipsis-v-solid.svg);
+  background-repeat: no-repeat;
+} */
+
+body {
+  background-color: gainsboro;
+  position: relative;
+}
+
+.card {
+  height: max-content;
+  width: 20rem;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+.heading {
+  margin: 1rem 0 0rem;
+}
+
+.card-img {
+  width: auto;
+  height: 14 rem;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+}
+
+.about {
+  padding: 0rem 1rem;
+}
+
+.card-nav {
+  display: flex;
+  padding: 0rem 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+}
+
+.icons {
+  flex-basis: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btn,
+.icon-btn {
+  font-size: 1rem;
+  height: 2rem;
+  border: none;
+  background: none;
+}
+
+.btn {
+  color: darkcyan;
+}
+
+.btn:hover {
+  background-color: rgba(114, 173, 173, 0.151);
+  border-radius: 0.3rem;
+}
+
+.icon-btn:hover {
+  background-color: rgba(114, 173, 173, 0.151);
+  width: 2rem;
+  border-radius: 100%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.head:hover {
+  background-color: rgba(114, 173, 173, 0.151);
+}

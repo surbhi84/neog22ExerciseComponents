@@ -1,0 +1,42 @@
+body {
+  margin: unset;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  background-color: tomato;
+  margin: unset;
+  padding: unset;
+  width: max-content;
+  /* overflow-x: auto; */
+}
+
+.tabs::-webkit-scrollbar {
+  width: 0;
+  /* height: 0; */
+}
+.tab {
+  width: 4rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 1.5rem;
+  align-self: center;
+  /* margin-top: 1rem; */
+}
+
+.tab.active {
+  background-color: turquoise;
+}
+
+.tab:hover {
+  background-color: turquoise;
+}

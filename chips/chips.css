@@ -1,0 +1,42 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  margin: unset;
+}
+
+.heading {
+  padding-left: 1rem;
+}
+
+.parent-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: thistle;
+}
+
+.chip {
+  background-color: violet;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.input-field {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  order: 1;
+  /* align-self: flex-end; */
+}
+
+.icon {
+  font-size: small;
+  padding: 0.1rem 0.2rem 0rem 0.15rem;
+  border-radius: 50%;
+  background-color: thistle;
+}

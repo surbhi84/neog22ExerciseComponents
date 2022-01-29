@@ -1,0 +1,63 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  margin: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+i {
+  padding: 0.5rem;
+}
+
+.menu {
+  padding: 0.5rem;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: tomato;
+}
+
+.heading {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-list {
+  width: 10rem;
+  margin-left: auto;
+  list-style: none;
+  padding-left: unset;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: space-evenly;
+}
+
+.icon:hover {
+  opacity: 0.95;
+}
+
+.text {
+  font-size: larger;
+  height: 50vh;
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+.showcase {
+  overflow: auto;
+  margin: 4rem;
+  height: max-content;
+  width: 30rem;
+  border: 2px solid tomato;
+}

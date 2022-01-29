@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tabs.css" />
+    <link rel="stylesheet" href="./card.css" />
+    <script src="./tab.js" defer></script>
+    <title>Tabs</title>
+  </head>
+  <body>
+    <div>
+      <ul class="tabs">
+        <li data-tab-target="#tab1" class="active tab">Tab1</li>
+        <li data-tab-target="#tab2" class="tab">Tab2</li>
+        <li data-tab-target="#tab3" class="tab">Tab3</li>
+        <li class="tab">Tab4</li>
+        <li class="tab">Tab5</li>
+        <li class="tab">Tab6</li>
+        <li class="tab">Tab7</li>
+        <li class="tab">Tab8</li>
+        <li class="tab">Tab9</li>
+        <li class="tab">Tab10</li>
+        <li class="tab">Tab11</li>
+        <li class="tab">Tab12</li>
+        <li class="tab">Tab13</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div data-tab-content id="tab1" class="active">
+        <div class="card">
+          <h2 class="card-head">MyShop</h2>
+          <ul class="card-tabs">
+            <li data-card-tab="#shop" class="card-tab active">
+              Shop <i class="fas fa-store"></i>
+            </li>
+            <li data-card-tab="#wishlist" class="card-tab">
+              Wishlist <i class="far fa-heart"></i>
+            </li>
+            <li data-card-tab="#cart" class="card-tab">
+              Cart <i class="fas fa-shopping-cart"></i>
+            </li>
+          </ul>
+
+          <div class="card-content">
+            <div id="shop" data-card-content class="active">
+              <div class="shop-item">
+                <img src="./media/img2.jpg" class="img" />
+                <b>MyGlamm Popxo Hustlin' Mini Nail Kit</b>
+                <span class="wish"><i class="far fa-heart"></i></span>
+                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+              </div>
+              <div class="shop-item">
+                <img src="./media/img-3.jpg" class="img" />
+                <b>URBANMAC Makeup Brush Set</b>
+                <span class="wish"><i class="far fa-heart"></i></span>
+                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+              </div>
+              <div class="shop-item">
+                <img src="./media/img4.jpg" class="img" />
+                <b>SUGAR Cosmetics Mini Blush - 02 </b>
+                <span class="wish"><i class="far fa-heart"></i></span>
+                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+              </div>
+            </div>
+            <div id="wishlist" data-card-content></div>
+            <div id="cart" data-card-content>
+              <div class="shop-item">
+                <img src="./media/img-1.jpg" class="img" />
+                <b>Laneige Sleeping Lip Mask</b>
+
+                <span class="wish"><i class="far fa-heart"></i></span>
+                <span class="buy">Buy </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-tab-content id="tab2">tab2 content</div>
+      <div data-tab-content id="tab3">tab3 content</div>
+    </div>
+  </body>
+</html>

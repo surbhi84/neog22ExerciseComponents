@@ -1,0 +1,27 @@
+.card-title-header {
+  position: relative;
+  /* bottom: 15rem; */
+  color: black;
+  order: 1;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.card-img-header {
+  width: auto;
+  height: 14 rem;
+  order: 2;
+}
+
+.about-header {
+  padding: 0rem 1rem;
+  order: 3;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header:hover {
+  background-color: rgba(114, 173, 173, 0.151);
+}

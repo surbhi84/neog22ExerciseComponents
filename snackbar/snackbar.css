@@ -1,0 +1,67 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+/* 
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1-;
+} */
+
+.snackbar,
+.snackbar1,
+.snackbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 22rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  background-color: turquoise;
+}
+
+.retry {
+  border: none;
+  background-color: transparent;
+  color: rgb(98, 0, 190);
+  padding: 0.4rem;
+}
+
+.retry:hover {
+  background-color: rgb(158, 221, 215);
+  border-radius: 4px;
+}
+
+.icon {
+  font-size: large;
+  padding: 0.4rem 0.6rem 0.2rem 0.6rem;
+}
+
+.icon:hover {
+  background-color: rgb(158, 221, 215);
+  border-radius: 50%;
+}
+
+.snackbar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.snackbar1 {
+  position: absolute;
+  top: 95%;
+  /* left: 50%; */
+  transform: translate(0, -50%);
+}
+
+.snackbar2 {
+  width: 27rem;
+  flex-wrap: wrap;
+}
+
+.bundle {
+  padding-top: 0.7rem;
+  margin-left: auto;
+}
